@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-quru-python-5-18"
+version = "0.1.0"
+description = ""
+authors = ["tkoroleva <ms.tatiana.koroleva@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qa_quru_python_5_18"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "7.3.1"
+selene = "2.0.0rc2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
